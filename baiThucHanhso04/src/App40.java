@@ -27,6 +27,7 @@ public class App40 {
                 break;
             case 8:
                 System.out.println("Sunday");
+                break;
             default:
                 System.out.println("Ban da nhap sai !!!");
                 break;

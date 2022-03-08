@@ -12,7 +12,7 @@ public class App2 {
         System.out.println("Nhap do dai canh thu ba: ");
         canh3 = sc.nextFloat();
         if (canh1 + canh2 <= canh3 || canh1 + canh3 <= canh2 || canh2 + canh3 <= canh1) {
-            System.out.println("Đây không phải độ dài của một tam giác. kiểm tra lại!");
+            System.out.println("Day khong phai do dai cua mot tam giac, hay kiem tra lai!");
         
         }
         else if (canh1*canh1 == canh2*canh2 + canh3 *canh3||canh2*canh2 == canh1*canh1 + canh3 *canh3||canh3*canh3 == canh2*canh2 + canh1 *canh1){
@@ -21,7 +21,7 @@ public class App2 {
         else if (canh1 == canh2 && canh1 == canh3){
             System.out.println("Day la tam giac deu");
         }
-        else if (canh1 == canh2 ||canh1 == canh3){
+        else if (canh1 == canh2 ||canh1 == canh3 || canh2 == canh3){
             System.out.println("Day la tam giac can");
         }
         else{
